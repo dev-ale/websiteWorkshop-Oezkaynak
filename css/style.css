@@ -1,36 +1,65 @@
-/* ======================================================
-	PARTICLES | MADAM MONOROM | monorom.com
-	HTML5 & CSS Project | Spring 2016 
-   ======================================================	*/ 
-body{
-	font-size: 1rem;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	color:#333;
-	}
-a {
-	color: #b18f6a;
-	text-decoration:none;
-	}
-a:visited {color:#b18f6a;}
-a:hover {color: #f7786b;}
-a:active { color:#78909C;}
+body {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #000;
+    padding-top:150px;
+}
+header{
+    height:500px;
+}
+h1{
+    font-size:120%;
+    font-weight: 300;
+}
+h2{
+    font-size:115%;
+    font-weight: 200;
+}
+h3{
+    font-size:110%;
+}
+p{
+    font-size:12pt;
+}
+a{
+    color:#fefefe;
+}
+a:hover{
+    color:#fefefe;
+    text-shadow:3px #000;
+    text-decoration: none;
+}
 
-header,
-header a,
-header a:visited,
-footer a,
-footer a:visited {
-	color:#fff;
-	}
-footer{
-	color:#ddd;
-	}
-footer ul{
-	list-style-type:none;
-	padding:0;
-	margin: 0;
-	}
-footer li{
-    line-height:180%;
-	}	
+
+/*Navigation*/
+.navbar-custom{
+    background-color:#fefefe;
+    box-shadow:0px 2px 3px #eeeeee;
+    transition: background-color ease .5s;
+}
+.scrolled-nav{
+    background-color:#3F77A8;
+    border-bottom:none;
+}
+
+
+/*Button*/
+.btn-custom{
+    width:100%;
+    margin: 5 auto;
+}
+
+
+
+/*Landing-Page Panel Worktime*/
+#worktime{
+    
+}
+.panel-link{
+    color:#3F77A8;
+    font-size:120%;
+}
+.panel-link:hover{
+    color:#3F77A8;
+}

@@ -13,125 +13,195 @@
   <link rel="shortcut icon" href="https://www.zahnarzt-oezkaynak.ch/img/logoPraxis.png"/>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-4.3.1-dist/css/bootstrap.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
   <!-- Custom styles for this template -->
-  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-custom navbar-expand-lg fixed-top">
     <div class="container">
-      <img id="imgBackground" class="responsive " src="https://www.zahnarzt-oezkaynak.ch/img/logoPraxis.png" width="50" height="50" href="#page-top">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Oezkaynak <br />
-        Zahnarztpraxis</a>
+      <img class="responsive " src="https://www.zahnarzt-oezkaynak.ch/img/logoPraxis.png" width="50" height="50" href="#page-top">
+      <a class="navbar-brand text-dark" href="#page-top">Oezkaynak<br />Zahnarztpraxis</a>
 
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Über uns</a>
+            <a class="nav-link text-dark" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Leistungen</a>
+            <a class="nav-link text-dark" href="#about">Über uns</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            <a class="nav-link text-dark" href="#services">Leistungen</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
+            <a class="nav-link text-dark" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#contact">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#language">FR <img src="" alt="FrenchIcon" /></a>
+          </li>
+          <li class="nav-item d-block d-lg-none">
+            <button class="btn btn-primary btn-custom">Erster</button>
+          </li>
+          <li class="nav-item d-block d-lg-none">
+            <button class="btn btn-primary btn-custom">Zweiter</button>
+          </li>
+          <li class="nav-item d-block d-lg-none">
+              <button class="btn btn-primary btn-custom">Dritter</button>
           </li>
         </ul>
-
-
-
       </div>
     </div>
   </nav>
 
-  <header class="bg-light text-blue">
-    <div class="container text-center">
-      <h1>Zahnarztpraxis Dr. Oezkaynak</h1>
-      <p class="lead">Koray i bruche content langsam</p>
-      <a class="btn btn-primary btn-lg js-scroll-trigger" href="#contact" role="button">Kontaktiere uns</a>
-    </div>
-  </header>
+  <!--HEADER-->
+<header class="container-fluid d-none d-lg-block d-xl-block">
+</header>
 
-  <section id="about">
+
+<!--MAIN-->
+<main class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col">
           <h2>Willkommen</h2>
-          <p class="lead">Seit dem Jahr 1987 betreuen wir unsere Patienten in Biel. Dank unserem hohem Qualitätsbewusstsein und unserer persönlichen Betreuung, können wir individuell auf ihre Bedürfnisse eingehen. <br/><br/>
+          <p>Seit dem Jahr 1987 betreuen wir unsere Patienten in Biel.<br></br>
+            Dank unserem hohem Qualitätsbewusstsein und unserer persönlichen Betreuung, können wir individuell auf ihre Bedürfnisse eingehen. <br/><br/>
+            <span class="d-none d-lg-block d-xl-block">
             Unser kompetentes Praxisteam bietet Ihnen in allen Bereichen der Zahnmedizin eine fachgerechte und optimale Behandlung. <br /><br />
-            Ihre persönliche  Betreuung und die kompetente Behandlung liegen uns am Herzen. <br /><br />
-
+            Ihre persönliche  Betreuung und die kompetente Behandlung liegen uns am Herzen.
+          </span>
             Wir freuen uns auf Ihren Besuch!
           </p>
 
         </div>
       </div>
     </div>
-  </section>
-
-  <section id="services" class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Unsere Leistungen</h2>
-          <p class="lead">Schöne, gesunde Zähne, sind zufriedene Patienten.
-            Wir nehmen uns Zeit für Ihr Anliegen und laden Sie gerne für ein erstes persönliches Gespräch ein. Langjährige Erfahrung sowie ständigen Weiterbildungen in der Zahnmedizin, erlaubt es uns, Ihnen das ganze Spektrum der Zahnmedizin anzubieten .</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Zu den Leistungen</a>
+    
+    <!--Öffnungszeiten-->
+    <section class="container d-sm-block">
+      <div>
+      <a class="panel-link" data-toggle="collapse" href="#worktime" role="link" aria-expanded="false" aria-controls="worktime">
+        &Ouml;ffnungszeiten 
+      </a>
+      
+      <div class="collapse" id="worktime">
+        <div class="card card-body">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>Montag</td>
+                <td>08:00 - 19:00</td>
+              </tr>
+              <tr>
+                <td>Dienstag - Freitag</td>
+                <td>08:00 - 17:00</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Team</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-        </div>
       </div>
-    </div>
-  </section>
-
-  <section id="contact" class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Kontaktiere uns</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+      </br>
+      <!--Leistungen-->
+      <a class="panel-link" data-toggle="collapse" href="#services" role="link" aria-expanded="false" aria-controls="services">
+          Leistungen
+        </a>
+        
+        <div class="collapse" id="services">
+          <div class="card card-body">
+            
+            <h3>Zahnmedizin</h3>
+            <ul>
+              <li>Prophylaxe</li>
+              <li>Wurzelbehandlungen Endotonie</li>
+              <li>Prothetik</li>
+              <li>Zahnärtzliche Chirurgie</li>
+            </ul>>
+            
+            <h3>Dentalhygiene</h3>
+            <ul>
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+
+    </section>
+  </br>
+</main>
+
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Zahnarztpraxis Oezkaynak </p>
+  <footer class="container-fluid">
+    <d iv class="container-fluid" style="height:200px;">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-lg-6">
+                  <h3>Kontakt</h3>
+                  <ul>
+                    <li>Zahnarztpraxis Oezkaynak</li>
+                    <li>Dr. med. dent. Oezkaynak</li>
+                    <li>Aarbergstrasse 92</li>
+                    <li>2502 Biel/Bienne</li>
+                  </ul>
+              </div>
+              <div class="d-none d-lg-block d-xl-block">
+                <h2>Gooogle Maaaps</h2>
+              </div>
+            </div>
+          </div>
     </div>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <button class="btn btn-primary btn-custom">
+              <a href="phone@asdf">032 323 23 42</a>
+            </button>
+          </div>
+          <div class="col-xs-12 col-md-4">
+              <button class="btn btn-primary btn-custom">
+                <a href="#googleapi">zu Google-Maps</a>
+              </button>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <button class="btn btn-primary btn-custom"><a href="mail@info" >info@zahnarzt-oezkaynak.ch</a></button>
+          </div>  
+        </div>
+        <div class="row">
+          <div class="col-9">
+            <p class="">Copyright &copy; Zahnarztpraxis Oezkaynak </p>
+          </div>
+          <div class="col-3">
+            <a href="#impressum">Impressum</a>
+          </div>
+        </div>
+    </div>
+  </div>
     <!-- /.container -->
   </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 
   <!-- Custom JavaScript for this theme -->
-  <script src="js/scrolling-nav.js"></script>
+  <script src="js/custom.js"></script>
 
 </body>
 
