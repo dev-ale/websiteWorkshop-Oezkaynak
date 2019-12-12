@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    if ($(window).scrollTop() >= 100) {
+    if ($(window).scrollTop() >= 80) {
         
       $('.navbar').addClass('scrolled-nav');
         
@@ -11,7 +11,7 @@ $(document).ready(function(){
         if($('.navbar-toggler').removeClass('navbar-light')){
           $('.navbar-toggler').addClass('navbar-dark');
         }
-      } else if (scrollTop < 100) {
+      } else if (scrollTop < 80) {
         $('.navbar').removeClass('scrolled-nav');
       }
     
@@ -20,7 +20,7 @@ $(document).ready(function(){
       scrollTop = $(window).scrollTop();
        $('.counter').html(scrollTop);
       
-      if (scrollTop >= 100) {
+      if (scrollTop >= 80) {
         $('.navbar').addClass('scrolled-nav');
         
         if($('.nav-link, .navbar-brand').removeClass('text-dark')){
@@ -32,7 +32,7 @@ $(document).ready(function(){
         }
 
 
-      } else if (scrollTop < 100) {
+      } else if (scrollTop < 80) {
         
         $('.navbar').removeClass('scrolled-nav');
         

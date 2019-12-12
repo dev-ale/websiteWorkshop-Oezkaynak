@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Oezkaynak - Zahnarztpraxis</title>
+  <title>Zahnarztpraxis Oezkaynak</title>
 
   <link rel="shortcut icon" href="https://www.zahnarzt-oezkaynak.ch/img/logoPraxis.png"/>
 
@@ -26,7 +26,7 @@
   <nav class="navbar navbar-custom navbar-expand-lg fixed-top">
     <div class="container">
       <img class="responsive " src="https://www.zahnarzt-oezkaynak.ch/img/logoPraxis.png" width="50" height="50" href="#page-top">
-      <a class="navbar-brand text-dark" href="#page-top">Oezkaynak<br />Zahnarztpraxis</a>
+      <a class="navbar-brand text-dark" href="#page-top">Zahnarztpraxis<br />Oezkaynak</a>
 
 
       <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,22 +34,22 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item nav-custom-hover-light">
             <a class="nav-link text-dark" href="#home">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-custom-hover-light">
             <a class="nav-link text-dark" href="#about">Über uns</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-custom-hover-light">
             <a class="nav-link text-dark" href="#services">Leistungen</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-custom-hover-light">
             <a class="nav-link text-dark" href="#team">Team</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-custom-hover-light">
             <a class="nav-link text-dark" href="#contact">Kontakt</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-custom-hover-light">
             <a class="nav-link text-dark" href="#language">FR <img src="" alt="FrenchIcon" /></a>
           </li>
           <li class="nav-item d-block d-lg-none">
@@ -73,7 +73,7 @@
 
 <!--MAIN-->
 <main class="container-fluid">
-    <div class="container">
+  <div class="container">
       <div class="row">
         <div class="col">
           <h2>Willkommen</h2>
@@ -88,16 +88,16 @@
 
         </div>
       </div>
-    </div>
+  </div>
     
-    <!--Öffnungszeiten-->
-    <section class="container d-sm-block">
+    <!--Öffnungszeiten - only on small Device visible-->
+    <section class="container d-block d-md-none">
       <div>
-      <a class="panel-link" data-toggle="collapse" href="#worktime" role="link" aria-expanded="false" aria-controls="worktime">
+      <a class="panel-link" data-toggle="collapse" href="#worktimeSmall" role="link" aria-expanded="false" aria-controls="worktimeSmall">
         &Ouml;ffnungszeiten 
       </a>
       
-      <div class="collapse" id="worktime">
+      <div class="collapse" id="worktimeSmall">
         <div class="card card-body">
           <table class="table">
             <tbody>
@@ -115,12 +115,12 @@
       </div>
       </div>
       </br>
-      <!--Leistungen-->
-      <a class="panel-link" data-toggle="collapse" href="#services" role="link" aria-expanded="false" aria-controls="services">
+      <!--Leistungen - only on small Device visible-->
+      <a class="panel-link" data-toggle="collapse" href="#servicesSmall" role="link" aria-expanded="false" aria-controls="servicesSmall">
           Leistungen
         </a>
         
-        <div class="collapse" id="services">
+        <div class="collapse" id="servicesSmall">
           <div class="card card-body">
             
             <h3>Zahnmedizin</h3>
@@ -137,18 +137,57 @@
             </ul>
           </div>
         </div>
-
     </section>
-  </br>
+
+    <!--Big Content - only visible from md to xl-->
+    <section id="servicesBig" class="container-fluid d-none d-md-block padding-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <h2>Unsere Leistungen</h2>
+          </div>
+          <div class="col-8">
+            <p class="text-uppercase">Unser umfassendes Leistungsspektrum umfasst in alle Bereichen der Zahnmedizin</p>
+            <button class="btn btn-primary">zu unsere Leistungen</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="worktimeBig" class="container-fluid d-none d-md-block padding-container"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>Öffnungszeiten</h2>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Montag</td>
+                  <td>08:00 - 19:00</td>
+                </tr>
+                <tr>
+                  <td>Dienstag - Freitag</td>
+                  <td>08:00 - 17:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-6">
+            <h2>Hier Termin vereinbaren</h2>
+            <button class="btn btn-outline">032 323 23 42</button>
+          </div>
+        </div>
+      </div>
+    </section>
 </main>
 
 
   <!-- Footer -->
-  <footer class="container-fluid">
-    <d iv class="container-fluid" style="height:200px;">
+  <footer>
+    <div class="container-fluid padding-container" id="contact">
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-md-6 col-lg-6">
+              <div class="col-xs-12 col-md-6 col-lg-6 contact">
                   <h3>Kontakt</h3>
                   <ul>
                     <li>Zahnarztpraxis Oezkaynak</li>
@@ -163,7 +202,7 @@
             </div>
           </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="snackbar">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-4">
@@ -180,17 +219,20 @@
             <button class="btn btn-primary btn-custom"><a href="mail@info" >info@zahnarzt-oezkaynak.ch</a></button>
           </div>  
         </div>
-        <div class="row">
+      </div>
+    </div>
+    <div class="container-fluid" id="copyright">
+      <div class="container">
+        <div class="row copyright">
           <div class="col-9">
-            <p class="">Copyright &copy; Zahnarztpraxis Oezkaynak </p>
+            <p class="">&copy; 2019 Zahnarztpraxis Oezkaynak </p>
           </div>
           <div class="col-3">
-            <a href="#impressum">Impressum</a>
+            <a href="#impressum">| Impressum</a>
           </div>
         </div>
+      </div>
     </div>
-  </div>
-    <!-- /.container -->
   </footer>
 
   
@@ -204,5 +246,4 @@
   <script src="js/custom.js"></script>
 
 </body>
-
 </html>
