@@ -59,12 +59,12 @@ a:hover{
     background-color:#eeeeee;
 }
 .nav-custom-hover-light a:hover{
-    background-color:#3F77A8;
 }
 
 /*Button*/
 .btn-custom{
     width:90%;
+    font-size:90%;
     margin-top:10px;
     margin-bottom:10px;
     margin-left:5%;
@@ -107,6 +107,7 @@ a:hover{
     background-color:#2699FB;
 }
 #servicesBig{
+    min-height:250px;
     background-color:#8BB0D1;
 }
 .panel-link{
