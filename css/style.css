@@ -7,7 +7,11 @@ body {
     margin:0;
 }
 header{
-    height:500px;
+    height:450px;
+    widows: 100%;
+    background-image:url('../images/header.jpg');
+    margin-top:-80px;
+    background-size:cover;
 }
 main{
     padding:50px 0px 0px 0px;
@@ -15,6 +19,9 @@ main{
 main.container-fluid{
     padding-left:0px;
     padding-right:0px;
+}
+section{
+    padding:150px 0px 150px 0px;
 }
 footer{
     background-color:#3F77A8;
@@ -54,6 +61,14 @@ a:hover{
 .scrolled-nav{
     background-color:#3F77A8;
     box-shadow:0px 2px 3px #3d3d3d;
+}
+.nav-logo{
+    height:100px;
+    padding-right:15px;
+    transition: all ease .5s;
+}
+.scrolled-nav-logo{
+    height:80px;
 }
 .nav-custom-hover-dark a:hover{
     background-color:#eeeeee;
@@ -101,7 +116,21 @@ a:hover{
     font-size:80%;
     color:#95A4B1;
 }
+.alert-custom{
+    position:fixed;
+    bottom:5px;
+    width:93%;
+    left:3%;
+    box-shadow:0px 3px 5px #3d3d3d;
+    background-color:#cce5ff;
+}
 
+
+/*MAIN*/
+/*Content*/
+.content{
+    padding-top:50px;
+}
 /*Landing-Page Panel Worktime*/
 #worktimeBig{
     background-color:#2699FB;
@@ -118,5 +147,15 @@ a:hover{
     color:#3F77A8;
 }
 .padding-container{
-    padding:50px 0px 25px 0px;
+    padding:20px 0px 20px 0px;
+}
+
+/**/
+.smallServices{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.card{
+    margin:0px;
+    padding:25px;
 }

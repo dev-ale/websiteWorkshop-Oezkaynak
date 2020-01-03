@@ -22,7 +22,7 @@ $(document).ready(function(){
       
       if (scrollTop >= 80) {
         $('.navbar').addClass('scrolled-nav');
-        
+        $('.nav-logo').addClass('scrolled-nav-logo');
         if($('.nav-link, .navbar-brand').removeClass('text-dark')){
           $('.nav-link, .navbar-brand').addClass('text-light');
         }
@@ -35,7 +35,7 @@ $(document).ready(function(){
       } else if (scrollTop < 80) {
         
         $('.navbar').removeClass('scrolled-nav');
-        
+        $('.nav-logo').removeClass('scrolled-nav-logo');
         if($('.nav-link, .navbar-brand').removeClass('text-light')){
           $('.nav-link, .navbar-brand').addClass('text-dark');
         }
