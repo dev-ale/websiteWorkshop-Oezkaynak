@@ -4559,7 +4559,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(50, 50, 50, 0.125);
   border-radius: 0.25rem;
 }
 
@@ -4652,12 +4652,14 @@ input[type="button"].btn-block {
 }
 
 .card-img {
-  width: 100%;
+  max-width: 50%;
+  margin:0 auto;
+  box-shadow:0px 2px 4px #888888;
   border-radius: calc(0.25rem - 1px);
 }
 
 .card-img-top {
-  width: 100%;
+  width:100%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }

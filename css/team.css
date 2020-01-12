@@ -1,0 +1,34 @@
+
+/*A team child*/
+.card{
+    background-color:#fff;
+}
+.card-body{
+    color:#444;
+    background-color:#fff;
+}
+.card-body > ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-size:80%;
+}
+.card-pre-title{
+    font-size:90%;
+    margin:0;
+}
+.card-subtitle{
+    line-height: 0.8rem;
+}
+.card-subtitle, .card-text{
+    font-size:85%;
+}
+
+
+/**/
+.team-row:not(:first-child){
+    margin-top:1.3rem;
+}
+.team-item{
+    margin-bottom:1.3rem;
+}

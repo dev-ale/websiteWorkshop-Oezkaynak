@@ -2,7 +2,8 @@ body {
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #000;
+    color: #444;
+    background-color:#fefefe;
     padding:80px 0px 0px 0px;
     margin:0;
 }
@@ -14,14 +15,14 @@ header{
     background-size:cover;
 }
 main{
-    padding:50px 0px 0px 0px;
+    padding:0.4rem 0px 0px 0px;
 }
 main.container-fluid{
     padding-left:0px;
     padding-right:0px;
 }
 section{
-    padding:150px 0px 150px 0px;
+    padding:0.13rem 0rem 0.13rem 0rem;
 }
 footer{
     background-color:#3F77A8;
@@ -53,6 +54,14 @@ a:hover{
 
 
 /*Navigation*/
+.navbar-collapse{
+    margin-top:5%;
+}
+@media screen and (min-width: 991px){
+    .navbar-collapse{
+        margin-top:0%;
+    }
+}
 .navbar-custom{
     background-color:#fefefe;
     box-shadow:0px 2px 3px #ededed;
@@ -64,16 +73,33 @@ a:hover{
 }
 .nav-logo{
     height:100px;
-    padding-right:15px;
+    padding-right:1.3rem;
     transition: all ease .5s;
 }
 .scrolled-nav-logo{
     height:80px;
 }
-.nav-custom-hover-dark a:hover{
-    background-color:#eeeeee;
+.navbar-nav li a{
+    border-radius: calc(0.25rem - 1px);
+    margin-left: 5%;
+    margin-right:5%;
 }
+
 .nav-custom-hover-light a:hover{
+    background-color:#efefef;
+}
+.nav-custom-hover-light a.active{
+    background-color:#cce8ff;  
+}
+.nav-custom-hover-dark a.active{
+    background-color:#2699FB;
+}
+.nav-custom-hover-dark a:hover{
+    background-color:#1F89E4;
+}
+.nav-link{
+    min-width:60px;
+    width:auto;
 }
 
 /*Button*/
@@ -132,6 +158,10 @@ a:hover{
     padding-top:50px;
 }
 /*Landing-Page Panel Worktime*/
+.card-open{
+    background-color:transparent;
+    width:100%;
+}
 #worktimeBig{
     background-color:#2699FB;
 }
@@ -155,7 +185,21 @@ a:hover{
     padding-top:20px;
     padding-bottom:20px;
 }
-.card{
-    margin:0px;
-    padding:25px;
+
+/*Contact-Site*/
+/**/
+#contactSection{
+    background-color:#2699FB;
+}
+.contact-cards{
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+
+
+@media screen and (min-width:991px){
+    .card-open{
+        width:75%;
+    }
 }
