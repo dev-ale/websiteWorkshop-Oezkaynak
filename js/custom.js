@@ -1,5 +1,12 @@
 $(document).ready(function(){
-    
+    $('.panel-link').click(function(){
+      if($(this).find('img').hasClass('rotating')){
+        $(this).find('img').removeClass('rotating');
+      }else{
+        $(this).find('img').addClass('rotating');
+      }
+    });
+
     if ($(window).scrollTop() >= 80) {
         
       $('.navbar').addClass('scrolled-nav');

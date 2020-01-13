@@ -1,4 +1,3 @@
-
 /*A team child*/
 .card{
     background-color:#fff;
@@ -6,6 +5,9 @@
 .card-body{
     color:#444;
     background-color:#fff;
+}
+.card-title{
+    font-size:130%;
 }
 .card-body > ul{
     margin:0;
